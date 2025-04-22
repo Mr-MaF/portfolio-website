@@ -40,7 +40,6 @@ This project is a personal portfolio website designed to showcase my skills as a
    - **Solution**: Ensured all files were correctly named and committed to the main branch, and configured GitHub Pages settings properly.
 
 ## Live Demo
-You can view my portfolio website live at: [https://Mr-MaF.github.io/portfolio-website/](https://yourusername.github.io/portfolio-website/)
-
+You can view my portfolio website live at: (https://mr-maf.github.io/portfolio-website/)
 ## Conclusion
 This project reflects my skills and understanding of web development fundamentals. I look forward to enhancing it further with more features and projects in the future.
