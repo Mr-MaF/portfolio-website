@@ -33,6 +33,13 @@ img {
     height: auto;
 }
 
+iframe {
+            width="600"
+            height="450"
+            style="border:0; max-width: 100%;"
+            allowfullscreen=""
+            loading="lazy"
+       }
 form {
     display: flex;
     flex-direction: column;
