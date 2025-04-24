@@ -1,11 +1,11 @@
+document.getElementById('themeToggle').onclick = function() {
+    document.body.classList.toggle('dark-theme');
+    localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
+};
+
 window.onload = function() {
-    const greeting = document.getElementById('greeting');
-    const hour = new Date().getHours();
-    if (hour < 12) {
-        greeting.innerText = "Good Morning!";
-    } else if (hour < 18) {
-        greeting.innerText = "Good Afternoon!";
-    } else {
-        greeting.innerText = "Good Evening!";
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+        document.body.classList.add('dark-theme');
     }
 };
